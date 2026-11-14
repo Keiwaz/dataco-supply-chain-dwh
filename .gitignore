@@ -1,0 +1,15 @@
+# Dataset mentah: unduh dari Kaggle, jangan di-commit (ukuran + lisensi)
+data/*.csv
+*.csv
+
+# Kredensial / koneksi
+.env
+*.env
+*.pem
+
+# Power BI: commit .pbix hanya jika ukurannya wajar
+# *.pbix
+
+# File sementara
+.DS_Store
+Thumbs.db
